@@ -1,4 +1,3 @@
-
 def Number_of_Student():
     global nos
     nos = int(input("Number of Students: "))
@@ -6,7 +5,7 @@ def Number_of_Student():
 
 
 def Student_Information():
-    for i in range (0, nos):
+    for i in range (nos):
         print("Enter Student Information: ")
         id = input("ID: ")
         name = input("Name : ")
@@ -21,7 +20,7 @@ def Number_of_Course():
 
 
 def Course_Information():
-    for i in range (0, noc):
+    for i in range (noc):
         print("Enter Course Information: ")
         id = input("ID: ")
         name = input("Name : ")
